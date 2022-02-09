@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if(license !== "None") {
-    return `![Github License]((https://img.shields.io/badge/license-${license}-blue.svg))`
+    return `![Github License](https://img.shields.io/badge/license-${license}-blue.svg)`
   }
   return "";
 }
@@ -19,6 +19,7 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
+  
   if (license !== "None") {
     return `## License
     
@@ -29,20 +30,22 @@ This project is licensed under the ${license} license.`
 
 function renderTableOfContent(tcontent){
   if(tcontent !=="No") {
-    return `## Table of Content
-    
+    return `
+## Table of Contents
+
 [Installation](#installation)
 [Usage](#usage)
 [Credits](#credits)
-${renderLicenseLink}
+[License](#license)
 
 `
   }
   return ""
 }
 // TODO: Create a function to generate markdown for README
+
 function generateMarkdown(data) {
-  return `# ${data.title}
+return `# ${data.title}
 
 ${renderLicenseBadge(data.license)}
  
@@ -51,6 +54,9 @@ ${renderLicenseBadge(data.license)}
 ${data.description}
 
 ${renderTableOfContent(data.tcontent)}
+
+
+${data.license}
 
 ## Installation
 
@@ -70,7 +76,7 @@ ${renderLicenseSection(data.license)}
 
 ## Questions
 
-If you have any other questions about the repo, contact me at ${data.email.com}. You can find more of my work at[${data.github}](https://github.com/${data.guthub})
+If you have any other questions about the repo, contact me at ${data.email.com}. You can find more of my work at [${data.github}](https://github.com/${data.guthub})
 
 
 
