@@ -2,7 +2,6 @@
 
 [Readme Generator Video Demonstrator](https://drive.google.com/file/d/1YnVmRuNOUEijs6aHyGTZuBcM9QpBlS7G/view)
 
-[Deployed Application](https://hctyler.github.io/ReadMe-Generator/)
 
 [Github Repo](https://github.com/HCTyler/ReadMe-Generator)
 
