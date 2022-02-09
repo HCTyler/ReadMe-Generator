@@ -1,6 +1,14 @@
 # README Generator
 
+[Readme Generator Video Demonstrator](https://drive.google.com/file/d/1YnVmRuNOUEijs6aHyGTZuBcM9QpBlS7G/view)
+
+[Deployed Application](https://hctyler.github.io/ReadMe-Generator/)
+
+[Github Repo](https://github.com/HCTyler/ReadMe-Generator)
+
+
 ![Github License](https://img.shields.io/badge/license-MIT-blue.svg)
+
  
 ## Description
 
@@ -45,6 +53,5 @@ This project is licensed under the MIT license.
 ## Questions
 
 If you have any other questions about the repo, contact me at undefined. You can find more of my work at [HCTyler](https://github.com/undefined)
-
 
 
