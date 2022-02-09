@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if(license !== "none") {
-    return `\n* [License](#license)\n`
+    return `[License](#license)`
   }
   return ""
 }
@@ -34,9 +34,12 @@ function renderTableOfContent(tcontent){
 ## Table of Contents
 
 [Installation](#installation)
+
 [Usage](#usage)
+
 [Credits](#credits)
-[License](#license)
+
+
 
 `
   }
@@ -54,9 +57,10 @@ ${renderLicenseBadge(data.license)}
 ${data.description}
 
 ${renderTableOfContent(data.tcontent)}
+${renderLicenseLink(data.license)}
 
 
-${data.license}
+
 
 ## Installation
 
@@ -70,9 +74,10 @@ ${data.usage}
 
 ## Credits
 
-${data.collaborators}
+${data.collaborator}
 
 ${renderLicenseSection(data.license)}
+
 
 ## Questions
 
