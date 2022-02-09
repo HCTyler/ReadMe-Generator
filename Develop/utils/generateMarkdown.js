@@ -34,7 +34,7 @@ function renderTableOfContent(tcontent){
 [Installation](#installation)
 [Usage](#usage)
 [Credits](#credits)
-${renderLicenseLink(data.license)}
+${renderLicenseLink}
 
 `
   }
@@ -43,6 +43,8 @@ ${renderLicenseLink(data.license)}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+
+${renderLicenseBadge(data.license)}
  
 ## Description
 
@@ -64,7 +66,7 @@ ${data.usage}
 
 ${data.collaborators}
 
-${renderLicenseBadge(data.license)}
+${renderLicenseSection(data.license)}
 
 ## Questions
 
