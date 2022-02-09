@@ -23,29 +23,29 @@ const questions = [
     {
         type:"input",
         name:"description",
-        messege:"Please write a description of your project"
+        message:"Please write a description of your project."
     },
     {
         type:"list",
         name:"tcontent",
-        messege:"Would you like to include a Table of Content?",
+        message:"Would you like to include a Table of Content?",
         choices:["Yes","No"]
     },
     {
         type:"input",
         name:"installation",
-        messege:"What are the command steps required to install your project?"
+        message:"What are the command steps required to install your project?"
 
     },
     {
         type:"input",
         name:"usage",
-        messege:"Please provide instructions and examples of use."
+        message:"Please provide instructions and examples of use."
     },
     {
         type:"input",
         name:"collaborator",
-        messege:"List your collaborators or tutorials that were helpful."
+        message:"List your collaborators or tutorials that were helpful."
     },
     {
         type:"list",
